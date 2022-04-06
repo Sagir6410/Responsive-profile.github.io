@@ -1,0 +1,579 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+.aa{size: 100px;}
+.responsive-bar{
+    display: none;
+}
+header{
+     background-image: url(image/techno.jpeg);
+    width: 100%;
+    height: 120vh;
+   
+    background-size: cover;
+
+}
+.text{color: red;
+    margin-top: 100px;
+    margin-left: 300px;
+    max-width: 450px;
+    padding-top: 350px;
+}
+.text h1{
+    font-size: 50px;
+    margin:10px 0px;
+    color: #A70D2A;
+
+}
+.text p{
+    font-size: 25px;
+
+    
+}
+.btn{
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background: #36013F;
+    padding: 10px 20px;
+    margin-top: 20px;
+
+}
+.btn:hover{
+    background: turquoise;
+    color: #36013F;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+nav.black{
+    background: rgba(0,0,0,0.8);
+    height: 80px;
+    padding: 10px 50px;
+}
+.logo{color: red;
+margin-top: 20px;
+font-size: 30px;
+position: fixed;}
+span{color: red;}
+nav .logo{
+    float: left;
+}
+nav .logo img{
+    height: 60px;
+    transition: .5s;
+    border-radius: 20px;
+}
+nav.black .logo img{
+    height: 60px;
+}
+nav > ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    float: right;
+    text-decoration: none;
+}
+nav > ul > li{
+    list-style: none;
+    list-style-type: square;
+    display: inline-block;
+    text-decoration: none;
+}
+nav > ul > li > a:hover{
+    background: #D51393 ;
+    color: #1913D5 ;
+}
+nav > ul > li > a{
+    color: #262626;
+   
+    text-transform: uppercase; /*for capitalisation of letters */
+    line-height: 80px;
+    padding: 5px 20px;
+    transition: .5s; 
+    text-decoration: none;  
+}
+nav.black > ul > li > a{
+    color: #fff;
+    line-height: 60px;
+}
+
+
+.about{
+   padding: 100px 50px;
+    position: relative;
+ 
+}
+#dow{text-decoration: none;}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 50px;
+}
+.section-info p{
+    font-size: 25px;
+    color: #e73c3c;
+}
+.row{ display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap; }
+.row-left-col{
+    flex-basis: 50%;
+}
+.row-left-col img{
+    width: 100%;
+    padding: 20px;
+
+}
+.row-right-col{
+    flex-basis: 50%;
+}
+#p-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.row-right-col p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.p-title{
+    font-size: 40px;
+}
+
+progress{
+    width: 80%;
+}
+.progress-div{
+    width: 70%;
+    margin:auto;
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 80px;
+    text-align: justify;
+}
+
+.section4{background-image: url(image/mobile.webp);
+    
+    background-color: grey;
+  color: grey;
+  background-attachment: fixed;
+  padding: 100px 50px;
+   
+
+}
+
+#a{color: #D513B1;
+text-align: center;
+font-family: sans-serif;
+font-size: 100px;}
+span{color: white;
+font-size: 30px;
+margin-left: 10px;
+}
+.sk{background-color: #3B3131;
+margin: auto;
+width: 80%;}
+progress{width: 80%;
+height: 30px;}
+.section5{
+    padding: 100px 50px;
+    background-color: #2C3539;
+}
+.se{text-align: center;
+font-size: 60px;
+color: #F62817}
+
+.service-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service-box{
+    flex-basis: 25%;
+    text-align: center;
+    color: white;
+    
+    padding: 20px;
+    margin-top: 20px;
+     justify-content: space-between;
+}
+.service-box:hover{
+    background: #2C3539;
+    color: white;
+    transition: 0.4s;
+}
+.service-box img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+#contact{background-image: url(image/cont1.jpeg);
+   
+height: 150vh;
+width: 100%;
+background-size: cover;
+}
+.aaa{
+    size: 80%;
+}
+.section-info{padding: 60px;
+line-height: 60px;
+}
+
+.contact-row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-left-col{
+    flex-basis: 50%;
+}
+.contact-right-col{
+    flex-basis: 50%;
+
+}
+.contact-right-col form{
+    text-align: center;
+}
+
+.contact-right-col form h2{
+    margin-bottom: 20px;
+}
+
+.contact-right-col form input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-right-col form textarea{
+    width: 60%;
+    padding:10px;
+}
+#dow1{text-decoration: none;
+color: white;}
+/* footer*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+div, footer {
+    box-sizing: border-box;
+}
+
+div.mister_separator {
+    margin-top: 100px;
+}
+
+
+/*
+What do we have here? A set of three responsive footers, 2, 3 and 4 columns each.
+In order to make it easier to implement a preferred footer into your project, I decided to keep all the necessary styles right into their sections without putting common styles apart.
+This entails some things that otherwise wouldn't've been considered elegant for this project itself, like IDs duplication, code overuse and so forth.
+There are only three selectors which are common for all the footers below. Don't forget to transfer them to your project. They go right below this description.
+After that, you can simply copy the code from the section with your footer - there's all styles you need.
+Thank you for your interest.
+*/
+
+
+/*============ COMMON STYLES. DON'T FORGET TO COPY THEM AS WELL! ===========*/
+
+footer.site-footer {
+    padding: 60px 30px;
+    background: #222222;
+    color: #999999;
+    font-size: 10pt;
+}
+
+div#footer-container {
+    width: 768px;
+    margin: 0 auto;
+    transition: all 0.2s ease;
+}
+
+div#footer-grid {
+    display: flex;
+    align-items: stretch;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+/*============ footer 2 columns ===========*/
+
+footer#footer-2-cols div#left-footer-section {
+    flex-basis: 50%;
+    border-right: 1px solid #444444;
+    padding-right: 30px;
+}
+
+footer#footer-2-cols div#right-footer-section {
+    flex-basis: 50%;
+}
+
+footer#footer-2-cols div#copyright-information div#footer-logo-section {
+    display: flex;
+    align-items: center;
+}
+
+footer#footer-2-cols div#copyright-information div#footer-logo {
+    width: 30px;
+    margin-right: 30px;
+}
+
+footer#footer-2-cols div#footer-search input {
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid #999999;
+    background: #2a2a2a;
+    outline: none;
+    color: #999999;
+    padding: 2px;
+}
+
+footer#footer-2-cols div#footer-search button {
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid #999999;
+    background: transparent;
+    color: #cecece;
+    padding: 2px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+footer#footer-2-cols div#footer-search button:hover {
+    background: #cecece;
+    color: #666666;
+    border: 2px solid #666666;
+    transition: all 0.25s ease;
+}
+
+footer#footer-2-cols div#footer-search button:active {
+    position: relative;
+    top: 1px;
+}
+
+footer#footer-2-cols div#footer-logo img {
+    width: 100%;
+}
+
+footer#footer-2-cols div.footer-information p {
+    margin-top: 10px;
+}
+
+footer#footer-2-cols div.footer-information p:first-child {
+    margin-top: 30px;
+}
+
+footer#footer-2-cols div.footer-information p:last-child {
+    margin-bottom: 0;
+}
+
+footer#footer-2-cols div.footer-information p img {
+    margin-right: 0.75em;
+}
+
+footer#footer-2-cols div#right-footer-section ul {
+    margin: 0;
+}
+
+footer#footer-2-cols div.footer-links ul li, footer#footer-2-cols div.footer-links ul li a  {
+    list-style: none;
+    color: #999999;
+    line-height: 1.38em;
+    margin-bottom: 1em;
+}
+
+footer#footer-2-cols div.footer-links ul li:last-child, footer#footer-2-cols div.footer-links ul li a:last-child  {
+    margin-bottom: 0;
+}
+
+footer#footer-2-cols div#right-footer-section ul li a:hover {
+    color: #00bdc6;
+    transition: all 0.2s ease;
+}
+
+footer#footer-2-cols div#copyright-information {
+    border-top: 1px solid #444444;
+    padding: 30px 0 0 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+footer#footer-2-cols div#copyright-information div#social-buttons {
+    margin-left: auto;
+}
+
+footer#footer-2-cols div#copyright-information div#social-buttons img {
+    margin-left: 0.68em;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+footer#footer-2-cols div#copyright-information div#social-buttons i.fa:hover {
+    color: #666666;
+    transition: all 0.2s ease;
+}
+
+
+
+
+}
+@media(max-width:768px){
+    .responsive-bar{
+        display: block;
+        width: 100%;
+        height: 60px;
+        background: #262626;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 5px 20px;
+        box-sizing: border-box;
+        z-index: 1;
+    }
+    .responsive-bar .logo img{
+        float: left;
+        height: 50px;  
+    }
+    .responsive-bar .menu h4{
+        float: right;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        line-height: 50px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    nav{
+        padding: 0;
+    }
+    nav,
+    nav.black{
+    background: #262626;
+    height: 60px;
+    padding: 0;
+    }
+    nav .logo{
+        display: none;
+    }
+    nav ul{
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        background: #262626;
+        float: none;
+        display: none;
+    }
+    nav ul.active{
+        display: block;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    nav ul li a{
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        line-height: 30px !important;
+        color: #fff;
+        
+    }
+
+    nav > ul{
+        width: 100%;
+        display: none;
+    }
+    nav > ul > li{
+        display: block;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+
+
+    /*media*/
+    .progress-div{
+    width: 100%;
+    margin:auto;
+    padding-top: 100px;
+}
+
+progress{
+    width: 80%;
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.services-box{
+    flex-basis: 100%;
+    margin-top: 20px;
+}
+.services-box img{
+    width: 60%;
+}
+
+
+}
+
+.contact-left-col{
+    flex-basis: 100%;
+}
+.contact-right-col{
+    flex-basis: 100%;
+}
+.row-left-col{
+    flex-basis: 100%;
+}
+.row-left-col img{
+    width: 100%;
+    padding: 50px;
+}
+
+
+.skills-left-col{
+    flex-basis: 100%;
+}
+
+.skills-right-col{
+    flex-basis: 100%;
+}
+
+
+
+.row-right-col{
+    flex-basis: 100%;
+}
+}
